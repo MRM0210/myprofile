@@ -4,16 +4,295 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Mark McLachlan | My Profile</title>
 </head>
 <body>
-    <h1>My Pofile</h1>
-    <P>
-        My name is Mark McLachlan, I am 37 years old and was born and raised in Sydney Australia. 
-        I currently live on the Central Coast of NSW with my gorgeous wife and two beautiful daughters. 
-        I have worked as a Boat Builder for multiple companies over the last 18 years. 
-        I have played 20 years of 1st grade cricket on the Central Coast as an opening batsman 
-        and opening bowler, participating in 8 grand finals and 5 premierships.
-    </P>
+    <div id="top"></div>
+    <div class="divider-top">
+            <p>Mark McLachlan - s3778046</p>
+            <p>Introduction to Information Technology</p>
+    </div>
+    
+    <div class="header">
+        <div class="topbar">
+            <div class="picture">
+                    <img src="img/profilePic.jpg" alt="">
+            </div>
+            <div class="text">
+                <h1>Assignment 1 - My profile</h1>   
+            </div>
+            <div class="picture">
+                    <img src="img/profilePic.jpg" alt="">
+            </div> 
+        </div>
+        <div class="divider-bottom"></div>
+        <div class="navbar">
+            <button class="tabs active" onclick="openTab(event, 'home')">Home</button>
+            <button class="tabs" onclick="openTab(event, 'personal-information')">Personal Information</button>
+            <button class="tabs" onclick="openTab(event, 'interest-in-it')">Interest In IT</button>
+            <button class="tabs" onclick="openTab(event, 'ideal-job')">Ideal Job</button>
+            <button class="tabs" onclick="openTab(event, 'profile')">Profile</button>
+            <button class="tabs" onclick="openTab(event, 'project-idea')">Project Idea</button>
+        </div>
+    </div> 
+
+    <div class="top">
+        <a href="#top">Back to Top</a>
+    </div>
+    
+    <div id="home-load" class="content-load">
+       <!-- <div class="home-img"></div>-->
+    </div>
+    <div id="home" class="content">
+       <!-- <div class="home-img"></div>-->
+    </div>
+
+<!--Personal Information-->
+    <div id="personal-information" class="content">
+        <div class="content-wrapper">
+            <h4 class="title">Personal Information:</h4>
+            <p><span class="small-title"> Name: </span>Mark McLachlan.</p>
+            <p><span class="small-title"> Student Number: </span> S3778046</p>
+            <p><span class="small-title"> Email Address: </span> S3778046@student.rmit.edu.</p><br> 
+            <p> 
+                My name is Mark McLachlan, I am 37 years old and was born and raised in Sydney Australia. 
+                I currently live on the Central Coast of NSW with my gorgeous wife and two beautiful daughters. 
+                I have worked as a Boat Builder for multiple companies over the last 18 years. 
+                I have played 20 years of 1st grade cricket on the Central Coast as an opening batsman 
+                and opening bowler, participating in 8 grand finals and 5 premierships.
+            </p><br> 
+            <p class="small-title">Education to date</p>
+            <ul>
+                <li>Completed HSC in 1999,</li>
+                <li>Completed Certificate 3 in composite reinforced plastics in 2002,</li>
+                <li>Completed Certificate 3 in small business management in 2004,</li>
+                <li>Completed Diploma of building design with distinction in 2018,</li>
+                <li>Completed Intro to programming and programing 1 in 2019.</li>
+            </ul>
+        </div>
+    </div>
+
+<!--Interest In IT-->    
+    <div id="interest-in-it" class="content">
+        <div class="content-wrapper">
+            <h4 class="title">Interest In IT:</h4>
+            <p> 
+                My interest in IT is programming, my passion for programming was 
+                sparked over the last 5 years while collecting and analysing data, 
+                and automatically trading on live global sporting markets using 
+                visual basics and a small amount of python, just as a hobby, 
+                nothing too serious. I have also put together a few basic web 
+                sites for some friends with WordPress and also used a bit of HTML, 
+                CSS, JS and PHP. I definitely don’t claim to be an expert in any 
+                of those languages. 
+            </p><br>
+            <p> 
+                I choose RMIT as I recently completed the Intro to Programming and 
+                Programming 1 units, (which I initially choose randomly) I feel these 
+                units gave me a good understanding of the concepts of Object Orientated 
+                Programming and Java, I enjoyed the way the courses were structured 
+                and thought that working towards completing the Bachelor of IT degree 
+                would be a challenging but rewarding way forward.
+            </p><br>
+            
+            <p class="small-title">Some of the things I expect to learn from this course are:</p><br>
+
+            <ul>
+                <li>Programming using java and other languages,</li>
+                <li>How to work with databases,</li>
+                <li>Ux and Ui Design,</li>
+                <li>Security,</li>
+                <li>Website development,</li>
+                <li>Cloud computing,</li>
+                <li>Networking,</li>
+                <li>How to work effectively in teams,</li>
+                <li>And obviously much more.</li>
+            </ul>
+        </div>
+    </div>
+
+<!--Ideal Job-->
+    <div id="ideal-job" class="content">
+        <div class="content-wrapper">
+            <h4 class="title">Ideal Job:</h4>
+            <div class="image-wrapper">
+                <img src="img/javaJob2.png" alt="">
+            </div>
+            <a href="https://www.seek.com.au/job/39875879?searchrequesttoken=08d386f8-b5f7-44fe-a3db-d5ad93cdb6a2&type=standout">Link to Job add on Seek</a>
+            <br><br>
+            <p class="small-title">Description of job.</p>
+            <p> 
+                This job advertisement is for a senior java developer for Macquarie bank 
+                located in the Sydney CBD. The role will include being responsible for 
+                contributing towards designing, developing and maintaining document management 
+                and correspondence platforms, as well as supporting and improving existing 
+                applications.
+            </p><br> 
+            <p class="small-title">Description of skills and experience required.</p>
+            <ul>
+                <li>Strong java Knowledge,</li>
+                <li>Modern integration approaches such as AWS and Google cloud technologies,
+                    Micro-services and reactive programming and Rest and Soap based API’s.</li>
+                <li>Open source integration technologies such as Apache Camel and WebFlux,</li>
+                <li>Event and message-orientated platforms such as Solace, Kafka and Active MQ,</li>
+                <li>Windows as well as Unix server applications.</li>
+                <li>Other technologies including FUSE, Solace, OpenShift, Splunk, Sumo, AppDynamics.</li>
+            </ul>
+            <br> 
+            <p class="small-title">Description of skills and experience I currently have.</p>
+            <ul>
+                <li>Attention to detail, strong communication and organisational skills,</li>
+                <li>Ability to work independently and as part of a team,</li>
+                <li>Basic Java skills acquired from Introduction to programming and programming 1 though RMIT.</li>
+                <li>Basic knowledge of working with API’s.</li>
+            </ul>
+            <br> 
+            <p class="small-title">How I plan to obtain the skills and experience required for this position:</p>
+            <ul>
+                <li>Complete the Bachelor of Information Technology,</li>
+                <li>Choose all the programming electives as part of this degree,</li>
+                <li>Apply for entry level jobs to gain the experience needed for a higher role,</li>
+                <li>Read documents, practice coding and create applications using the technologies required.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="profile" class="content">
+        <div class="content-wrapper">
+            <h4 class="title">Profile:</h4>
+            <br>
+            <p class="small-title">Myers-Briggs Type Indicator</p>
+            <a href="https://www.16personalities.com/">Website: https://www.16personalities.com</a>
+            <br><br>
+            <p><span>Type:</span> Turbulent Defender  (ISFJ-T),</p>
+            <p><span>Role:</span> Sentimental,</p>
+            <p><span>Strategy:</span> Constant Improvement.</p>
+            <p>Individual Traits:</p>
+            <br>
+            <ul>
+                <li>Mind: (Introverted – 67%, Extroverted - 33%), this trait determines how we interact with our environment.</li>
+                <li>Energy:  (Observant – 62%, Intuitive - 38%), this trait shows where we direct our mental energy.</li>
+                <li>Nature: (Feeling – 56%, Thinking - 44%), this trait determines how we make decisions and cope with emotions.</li>
+                <li>Tactics: (Judging – 64%, Prospecting – 34%), this trait reflects our approach to work, planning and decision-making.</li>
+                <li>Identity: (Turbulent – 54%, Assertive - 46%), this trait underpins all others, showing how confident we are in our abilities and decisions.</li>
+            </ul>
+            <br><br>
+
+            <p class="small-title">Learning Style Test</p>
+            <a href="http://www.educationplanner.org/students/self-assessments/learning-styles.shtml">Website: http://www.educationplanner.org/students/self-assessments/learning-styles.shtml</a>
+            <br> <br>     
+            <p>My learning style test scores:</p>
+            <br>
+            <ul>
+                <li>Auditory: 20%,</li>
+                <li>Visual: 35%,</li>
+                <li>Tactile: 45%</li>
+            </ul>
+            <br>
+            <p>I am a tactile learner!</p>
+            <p>A tactile learner, learns by touching and doing. They are 
+                a hands on learner who prefers to touch, move, build or 
+                draw what you learn and tend to learn better when 
+                physical activity is involved. They learn best by doing, 
+                not reading, seeing or hearing.
+            </p>
+            <br><br>
+
+            <p class="small-title">Creativity Test:</p>
+            <a href="http://www.testmycreativity.com/">Website: http://www.testmycreativity.com</a>
+            <br><br>
+            <div class="image-wrapper">
+                <img src="img/creativeTest.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="project-idea" class="content">
+        <div class="content-wrapper">
+            <h4 class="title">Project Idea:</h4>
+            <br>
+            <p class="small-title">Overview:</p>
+            <p>The project idea that I have decided on is a smartphone and desktop 
+                application that uses sound/voice recognition to records a small 
+                sample of a bird call, the application will then reports back to 
+                the user the species of the bird as well as a small description. 
+                The description will include details on the name of the name, 
+                life expectancy, what region/country the bird is native to and 
+                the approximate population of the animal. This application will 
+                be similar to Shazam but instead of music it will be designed for 
+                bird sounds.
+            </p>
+            <br>   
+            <p class="small-title">Motivation:</p>
+            <p>My motivation for this project idea has come about after hearing 
+                many bird calls over the years, while many are very distinguishable, 
+                there is often new or unique calls that I have never been able to 
+                identify. The idea of having an application on me to quickly identify 
+                a bird from its call is quite appealing to me. There are many bird 
+                watching clubs and societies throughout the world who I feel would 
+                appreciate this application, as all species of birds have unique calls. 
+                The challenge of putting my programming skills to the test and working 
+                with voice/sound recognition technologies is also a driving force 
+                behind this idea.
+            </p>
+            <br>
+            <p class="small-title">Description:</p>
+            <p>The application will start by asking the student to either register or 
+                sign in. The registration process will ask the student for their country, 
+                state, name, age, gender and school year. The data provided will then be 
+                stored in a user data base. Once the student is logged in a menu will 
+                appear with the following options:
+            </p>
+            <br>
+            <ul>
+                <li>Take a quiz</li>
+                <li>View learning materials</li>
+                <li>View profile</li>
+            </ul>
+            <br>
+            <p>The “Take a quiz” option will proceed to ask the student subject and topic 
+                within the subject they would like for the quiz. After all the input is 
+                taken the application will proceed with a 20 question quiz on the subject 
+                topic and difficulty level of the school year selected on their profile, 
+                all question will be relevant to the school curriculum of the state of 
+                the student. All results for each subject will be stored in a database and 
+                the student will be notified about any areas where improvement is needed as 
+                well as areas where improvements have been made.
+            </p>
+            <br>
+            <p>The “View learning materials” option will proceed to ask the student what 
+                school year, subject and topic within the subject they would like learning 
+                materials for. The application will display a list of learning material 
+                documents stored within the system as well as links to external learning 
+                material on the web.
+            </p>
+            <br>
+            <p>The “view profile” option will display all the results for each quiz taken 
+                and also the improvements made during the year. A ranking of all registered 
+                users will also be displayed for each year and subject. 
+            </p>
+            <br>
+            <p>Storage of all the quiz questions will be in a file within the system and 
+                user database will be located in a MySQL database using phpMyAdmin.
+            </p>
+        </div>
+    </div>  
 </body>
+<script src="script.js"></script>
 </html>
+
+
+
+
+
+	
+
+
+
+
+
+
+
