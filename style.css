@@ -1,0 +1,162 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }  
+
+ body {
+     background-image: url(img/img13.jpg);
+     max-height: 100%;
+     max-width: 100%;
+ }
+
+ .title {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 46);
+    padding: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 7px;
+}
+
+.image-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small-title {
+   color: rgb(15, 14, 20);
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   font-weight: bolder;
+}
+
+.header {
+    width: 100%;
+}
+
+.divider-top {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    color: white;
+    background-color: rgb(0, 0, 46);
+    
+}
+
+.divider-bottom {
+    height: 10px;
+    border-bottom: 3px solid rgb(0, 0, 46);
+    background-color: white;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 46);
+}
+
+.picture{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+    margin: auto;
+}
+
+.picture img {
+    height: 98%;
+    width: 98%;
+    border-radius: 50%;
+    border: solid 1px grey;
+}
+
+.text {
+  flex: 5;
+  text-align: center;
+}
+.text h1 {
+    font-size: 3em;
+    line-height: 15vh;
+    text-transform: uppercase;
+}
+
+.text p {
+    line-height: 4vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    opacity: .8;
+}
+
+  
+.navbar button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+  
+.navbar button:hover {
+    background-color: #ddd;
+}
+
+.navbar button.active {
+background-color: rgb(0, 0, 46);
+color: white;
+}
+
+.content-wrapper {
+    width: 70%;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: rgb(153, 153, 153) solid 1px;
+    -moz-box-shadow:    inset 0 0 20px rgb(0, 0, 46);
+    -webkit-box-shadow: inset 0 0 20px rgb(0, 0, 46);
+    box-shadow:         inset 0 0 20px rgb(0, 0, 46);
+}
+
+.content{
+    margin-top: 50px;
+    justify-content: space-around;
+    display: none;
+}
+
+.content-load{
+    display: block;
+}
+
+
+ul {
+    margin-left: 50px;
+}
+
+.top {
+left: 90%;
+top: 95%;
+background-color: rgb(15, 14, 20);
+opacity: .5;
+position: fixed;
+}
+
+.top a {
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+}
