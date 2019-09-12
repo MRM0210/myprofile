@@ -16,14 +16,8 @@
     
     <div class="header">
         <div class="topbar">
-            <div class="picture">
-                    <img src="profilePic.jpg" alt="">
-            </div>
             <div class="text">
                 <h1>Assignment 1 - My profile</h1>   
-            </div>
-            <div class="picture">
-                    <img src="profilePic.jpg" alt="">
             </div> 
         </div>
         <div class="divider-bottom"></div>
@@ -41,9 +35,18 @@
         <a href="#top">Back to Top</a>
     </div>
     
-    <div id="home-load" class="content-load">
+    <div id="home-load" class="content-load">     
+            <div class="picture">
+                <img src="pp3.jpg" alt="">
+            </div>
+            <h1>Mark McLachlan</h1>
     </div>
+
     <div id="home" class="content">
+            <div class="picture">
+                <img src="pp3.jpg" alt="">
+            </div>
+            <h1>Mark McLachlan</h1>
     </div>
 
 <!--Personal Information-->
@@ -213,36 +216,41 @@
             <h4 class="title">Project Idea:</h4>
             <br>
             <p class="small-title">Overview:</p>
-            <p>The project idea that I have decided on is a smartphone and desktop 
-                application that uses sound/voice recognition to records a small 
-                sample of a bird call, the application will then reports back to 
-                the user the species of the bird as well as a small description. 
-                The description will include details on the name of the name, 
-                life expectancy, what region/country the bird is native to and 
-                the approximate population of the animal. This application will 
-                be similar to Shazam but instead of music it will be designed for 
-                bird sounds.
+            <p>The project that I have decided on is a smartphone and desktop learning 
+                web application for primary school aged students and parents. The 
+                Application content will be based on the curriculum of each school year, 
+                and broken down into all the main subjects that students undertake during 
+                each year. Each subject will have quizzes that will test the child’s 
+                knowledge and report back on areas they need to improve on. Each student 
+                progress will be ranked against all other users in the system for each 
+                school year and subject. All information will also be accessible by 
+                registered parents. There will also be a discussion forum for the parents 
+                to communicate with other parent with children in the same school year.
             </p>
             <br>   
             <p class="small-title">Motivation:</p>
-            <p>My motivation for this project idea has come about after hearing 
-                many bird calls over the years, while many are very distinguishable, 
-                there is often new or unique calls that I have never been able to 
-                identify. The idea of having an application on me to quickly identify 
-                a bird from its call is quite appealing to me. There are many bird 
-                watching clubs and societies throughout the world who I feel would 
-                appreciate this application, as all species of birds have unique calls. 
-                The challenge of putting my programming skills to the test and working 
-                with voice/sound recognition technologies is also a driving force 
-                behind this idea.
+            <p>The challenge of getting my two primary school aged children to complete 
+                their homework each night is the motivating factor behind this idea, to 
+                say it’s a challenge is a major understatement!!! The idea of having a 
+                fun interactive application for my children to study relevant content 
+                at the click of a button while receiving instant feedback on their work 
+                is the driving force for this project. The Idea of a platform to 
+                communicate with other parents about my child and other children’s 
+                progress is also very appealing. I am also highly motivated by the 
+                challenge of programming an application like this using and learning 
+                the different languages and technologies required to complete this task. 
             </p>
             <br>
             <p class="small-title">Description:</p>
-            <p>The application will start by asking the student to either register or 
-                sign in. The registration process will ask the student for their country, 
-                state, name, age, gender and school year. The data provided will then be 
-                stored in a user data base. Once the student is logged in a menu will 
-                appear with the following options:
+            <p>The application will start by asking the user to either register as a 
+                parent or student. The registration process for a student will ask the 
+                student for their country, state, name, age, gender and school year. 
+                The registration for a parent will ask for name, how many primary school 
+                aged children they have and weather they would like to link their account 
+                to a child’s account. The data provided will then be stored in a user data.
+                <br> <br>
+                Once the user is logged in as a student a menu will appear with the following 
+                options:       
             </p>
             <br>
             <ul>
@@ -253,28 +261,42 @@
             <br>
             <p>The “Take a quiz” option will proceed to ask the student subject and topic 
                 within the subject they would like for the quiz. After all the input is 
-                taken the application will proceed with a 20 question quiz on the subject 
-                topic and difficulty level of the school year selected on their profile, 
-                all question will be relevant to the school curriculum of the state of 
-                the student. All results for each subject will be stored in a database and 
-                the student will be notified about any areas where improvement is needed as 
-                well as areas where improvements have been made.
+                taken the application will proceed with a 20 question quiz on the subject
+                 topic and difficulty level of the school year selected on their profile, 
+                 all question will be relevant to the school curriculum of the state of 
+                 the student. All results for each subject will be stored in a database 
+                 and the student will be notified about any areas where improvement is 
+                 needed as well as areas where improvements have been made.
             </p>
             <br>
-            <p>The “View learning materials” option will proceed to ask the student what 
-                school year, subject and topic within the subject they would like learning 
-                materials for. The application will display a list of learning material 
-                documents stored within the system as well as links to external learning 
-                material on the web.
+            <p>The “View learning materials” option will proceed to ask the student what school 
+                year, subject and topic within the subject they would like learning materials 
+                for. The application will display a list of learning material documents stored 
+                within the system as well as links to external learning material on the web.
             </p>
             <br>
-            <p>The “view profile” option will display all the results for each quiz taken 
-                and also the improvements made during the year. A ranking of all registered 
-                users will also be displayed for each year and subject. 
+            <p>The “view profile” option will display all the results for each quiz taken and 
+                also the improvements made during the year. A ranking of all registered users 
+                will also be displayed for each year and subject. 
+                <br><br>
+                Once the user is logged in as a parent a menu will appear with two options:     
             </p>
             <br>
-            <p>Storage of all the quiz questions will be in a file within the system and 
-                user database will be located in a MySQL database using phpMyAdmin.
+            <ul>
+                <li>View linked student accounts,</li>
+                <li>View Parent forum.</li>
+            </ul>
+            <br>
+            <p>The “View Linked student accounts” option will display a list of student account 
+                that you have linked to your account. You can select a student account and 
+                review progress reports, results and rankings. If no student accounts are 
+                linked the application will display an appropriate message.
+            <br><br>
+                The “View parents forum” will display a list of discussions available for 
+                each year and subject.
+            <br><br>
+                Storage of all the quiz questions will be in a file within the system and 
+                user database will be located in a MySQL database using phpMyAdmin.        
             </p>
         </div>
     </div>  
