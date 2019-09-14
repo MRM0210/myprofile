@@ -8,61 +8,89 @@
     <title>Mark McLachlan | My Profile</title>
 </head>
 <body>
+<!--Top of page link reference-->
     <div id="top"></div>
-    <div class="divider-top">
-            <p>Mark McLachlan - s3778046</p>
-            <p>Introduction to Information Technology</p>
+
+<!--main heading bar-->
+    <div class="top-bar">
+            <p>Introduction to Information Technology |  Mark McLachlan (s3778046)</p>
     </div>
-    
-    <div class="header">
-        <div class="topbar">
-            <div class="text">
+
+<!--Start of header-->   
+    <header>
+        <div class="header-bar">
+            <div class="main-heading">
                 <h1>Assignment 1 - My profile</h1>   
             </div> 
         </div>
-        <div class="divider-bottom"></div>
-        <div class="navbar">
+        <div class="divider"></div>
+
+<!--Start of navigation bar-->       
+        <navbar>
             <button class="tabs active" onclick="openTab(event, 'home')">Home</button>
             <button class="tabs" onclick="openTab(event, 'personal-information')">Personal Information</button>
             <button class="tabs" onclick="openTab(event, 'interest-in-it')">Interest In IT</button>
             <button class="tabs" onclick="openTab(event, 'ideal-job')">Ideal Job</button>
-            <button class="tabs" onclick="openTab(event, 'profile')">Profile</button>
+            <button class="tabs" onclick="openTab(event, 'profile')">Personal Profile</button>
             <button class="tabs" onclick="openTab(event, 'project-idea')">Project Idea</button>
-        </div>
-    </div> 
+        </navbar>
+    </header> 
 
+<!--Top of page link-->
     <div class="top">
-        <a href="#top">Back to Top</a>
-    </div>
-    
-    <div id="home-load" class="content-load">     
-            <div class="picture">
-                <img src="pp3.jpg" alt="">
-            </div>
-            <h1>Mark McLachlan</h1>
+        <a href="#top">Top</a>
     </div>
 
-    <div id="home" class="content">
-            <div class="picture">
-                <img src="pp3.jpg" alt="">
+<!--Home page content-->
+    <div id="home-load" class="content-load">     
+            <div class="home-picture">
+                    <h2>Mark McLachlan</h2>
+                <img src="pp1.jpg" alt="">
             </div>
-            <h1>Mark McLachlan</h1>
+    </div>
+    <div id="home" class="content">
+            <div class="home-picture">
+                <h2>Mark McLachlan</h2>
+                <img src="pp1.jpg" alt="">
+            </div>
     </div>
 
 <!--Personal Information-->
     <div id="personal-information" class="content">
         <div class="content-wrapper">
-            <h4 class="title">Personal Information:</h4>
-            <p><span class="small-title"> Name: </span>Mark McLachlan.</p>
-            <p><span class="small-title"> Student Number: </span> S3778046</p>
-            <p><span class="small-title"> Email Address: </span> S3778046@student.rmit.edu.</p><br> 
+            <div class="banner-img">
+                <h4 class="title">Personal Information</h4>
+            </div>
+            <br><br>
+            <div class="title-icons">
+                <div class="icon">
+                        <p> Name</p>
+                        <h2>Mark McLachlan</h2>
+                </div>
+
+                <div class="icon">
+                        <p> Student Number</p>
+                        <h2>S3778046</h2>
+                </div>
+
+                <div class="icon">
+                        <p> Email</p>
+                        <h2>S3778046@student.rmit.edu</h2>
+                </div>   
+            </div>
+            <br><br>
+            <p class="small-title">Background Information</p>
             <p> 
-                My name is Mark McLachlan, I am 37 years old and was born and raised in Sydney Australia. 
-                I currently live on the Central Coast of NSW with my gorgeous wife and two beautiful daughters. 
-                I have worked as a Boat Builder for multiple companies over the last 18 years. 
-                I have played 20 years of 1st grade cricket on the Central Coast as an opening batsman 
-                and opening bowler, participating in 8 grand finals and 5 premierships.
-            </p><br> 
+                My name is Mark McLachlan, I am 37 years old and was born and raised in Sydney, Australia. 
+                I currently live on the Central Coast of NSW with my wife and two beautiful daughters. 
+                I have worked as a Boat Builder for multiple companies over the last 18 years building boats 
+                ranging from single person kayaks to multi-million dollar luxury yachts. 
+                
+            </p>
+            <p class="small-title">Interesting fact</p>
+            <p>I have played 20 years of 1st grade cricket on the Central Coast as an opening batsman 
+               and opening bowler, participating in 8 grand finals and 5 premierships.
+            </p>
             <p class="small-title">Education to date</p>
             <ul>
                 <li>Completed HSC in 1999,</li>
@@ -77,7 +105,10 @@
 <!--Interest In IT-->    
     <div id="interest-in-it" class="content">
         <div class="content-wrapper">
-            <h4 class="title">Interest In IT:</h4>
+            <div class="banner-img">
+                <h4 class="title">Interest In IT</h4>
+            </div>
+            <p class="small-title">What is my interest in IT</p>
             <p> 
                 My interest in IT is programming, my passion for programming was 
                 sparked over the last 5 years while collecting and analysing data, 
@@ -87,18 +118,17 @@
                 sites for some friends with WordPress and also used a bit of HTML, 
                 CSS, JS and PHP. I definitely don’t claim to be an expert in any 
                 of those languages. 
-            </p><br>
+            </p>
+            <p class="small-title">Why I chose to study with RMIT</p>
             <p> 
-                I choose RMIT as I recently completed the Intro to Programming and 
-                Programming 1 units, (which I initially choose randomly) I feel these 
+                I chose RMIT as I recently completed the Intro to Programming and 
+                Programming 1 units, (which I initially chose randomly) I feel these 
                 units gave me a good understanding of the concepts of Object Orientated 
                 Programming and Java, I enjoyed the way the courses were structured 
                 and thought that working towards completing the Bachelor of IT degree 
                 would be a challenging but rewarding way forward.
-            </p><br>
-            
-            <p class="small-title">Some of the things I expect to learn from this course are:</p><br>
-
+            </p>
+            <p class="small-title">Some of the things I expect to learn from this course</p>
             <ul>
                 <li>Programming using java and other languages,</li>
                 <li>How to work with databases,</li>
@@ -116,21 +146,27 @@
 <!--Ideal Job-->
     <div id="ideal-job" class="content">
         <div class="content-wrapper">
-            <h4 class="title">Ideal Job:</h4>
-            <div class="image-wrapper">
+            <div class="banner-img">
+                <h4 class="title">Ideal Job</h4>
+            </div>
+            <p class="small-title">Job advertisement</p>
+            <div class="job-add-wrapper">
                 <img src="javaJob.png" alt="">
             </div>
-            <a href="https://www.seek.com.au/job/39875879?searchrequesttoken=08d386f8-b5f7-44fe-a3db-d5ad93cdb6a2&type=standout">Link to Job add on Seek</a>
-            <br><br>
-            <p class="small-title">Description of job.</p>
+            <div class="link">
+                <a href="https://www.seek.com.au/job/39875879?searchrequesttoken=08d386f8-b5f7-44fe-a3db-d5ad93cdb6a2&type=standout">Link to Job add on Seek</a>
+            </div>
+            <p class="small-title">Description of job</p>
             <p> 
-                This job advertisement is for a senior java developer for Macquarie bank 
-                located in the Sydney CBD. The role will include being responsible for 
-                contributing towards designing, developing and maintaining document management 
+                This job advertisement is for a senior Java developer for Macquarie bank 
+                located in the Sydney CBD. The role will include being part of a team responsible  
+                for designing, developing and maintaining document management 
                 and correspondence platforms, as well as supporting and improving existing 
-                applications.
-            </p><br> 
-            <p class="small-title">Description of skills and experience required.</p>
+                applications. Working in an environment where everyone is pushing each other
+                and striving to develop world leading technology through programming is 
+                highly appealing to me. 
+            </p> 
+            <p class="small-title">Description of skills and experience required</p>
             <ul>
                 <li>Strong java Knowledge,</li>
                 <li>Modern integration approaches such as AWS and Google cloud technologies,
@@ -138,59 +174,64 @@
                 <li>Open source integration technologies such as Apache Camel and WebFlux,</li>
                 <li>Event and message-orientated platforms such as Solace, Kafka and Active MQ,</li>
                 <li>Windows as well as Unix server applications.</li>
-                <li>Other technologies including FUSE, Solace, OpenShift, Splunk, Sumo, AppDynamics.</li>
-            </ul>
-            <br> 
-            <p class="small-title">Description of skills and experience I currently have.</p>
+                <li>Other technologies including FUSE, Solace, OpenShift, Splunk, Sumo, AppDynamics,</li>
+                <li>Industry experience working in similar roles.</li>
+            </ul> 
+            <p class="small-title">Description of skills and experience I currently have</p>
             <ul>
                 <li>Attention to detail, strong communication and organisational skills,</li>
                 <li>Ability to work independently and as part of a team,</li>
                 <li>Basic Java skills acquired from Introduction to programming and programming 1 though RMIT.</li>
-                <li>Basic knowledge of working with API’s.</li>
-            </ul>
-            <br> 
-            <p class="small-title">How I plan to obtain the skills and experience required for this position:</p>
+                <li>Basic knowledge of working with API’s attained while developing trading apps.</li>
+            </ul> 
+            <p class="small-title">How I plan to obtain the skills and experience required for this position</p>
             <ul>
                 <li>Complete the Bachelor of Information Technology,</li>
-                <li>Choose all the programming electives as part of this degree,</li>
+                <li>Choose all the programming electives as part of the IT degree,</li>
                 <li>Apply for entry level jobs to gain the experience needed for a higher role,</li>
+                <li>Enrol in other advanced java development courses from reputable institutions,</li>
+                <li>Share information and ideas among individuals or groups that share a common interest,</li>
                 <li>Read documents, practice coding and create applications using the technologies required.</li>
             </ul>
         </div>
     </div>
 
+<!--Personal Profile-->
     <div id="profile" class="content">
         <div class="content-wrapper">
-            <h4 class="title">Profile:</h4>
-            <br>
+            <div class="banner-img">
+                <h4 class="title">Personal Profile</h4>
+            </div> 
+            
+            <!--Myers-Briggs style test-->
             <p class="small-title">Myers-Briggs Type Indicator</p>
-            <a href="https://www.16personalities.com/">Website: https://www.16personalities.com</a>
-            <br><br>
+            <div class="link">
+                <a href="https://www.16personalities.com/">Website: https://www.16personalities.com</a>
+            </div>
             <p><span>Type:</span> Turbulent Defender  (ISFJ-T),</p>
             <p><span>Role:</span> Sentimental,</p>
             <p><span>Strategy:</span> Constant Improvement.</p>
-            <p>Individual Traits:</p>
-            <br>
+            <p><span>Individual Traits: </span></p>
             <ul>
-                <li>Mind: (Introverted – 67%, Extroverted - 33%), this trait determines how we interact with our environment.</li>
-                <li>Energy:  (Observant – 62%, Intuitive - 38%), this trait shows where we direct our mental energy.</li>
-                <li>Nature: (Feeling – 56%, Thinking - 44%), this trait determines how we make decisions and cope with emotions.</li>
-                <li>Tactics: (Judging – 64%, Prospecting – 34%), this trait reflects our approach to work, planning and decision-making.</li>
-                <li>Identity: (Turbulent – 54%, Assertive - 46%), this trait underpins all others, showing how confident we are in our abilities and decisions.</li>
+                <li><span>Mind: </span>(Introverted – 67%, Extroverted - 33%), this trait determines how we interact with our environment.</li>
+                <li><span>Energy:  </span>(Observant – 62%, Intuitive - 38%), this trait shows where we direct our mental energy.</li>
+                <li><span>Nature: </span>(Feeling – 56%, Thinking - 44%), this trait determines how we make decisions and cope with emotions.</li>
+                <li><span>Tactics: </span>(Judging – 64%, Prospecting – 34%), this trait reflects our approach to work, planning and decision-making.</li>
+                <li><span>Identity: </span>(Turbulent – 54%, Assertive - 46%), this trait underpins all others, showing how confident we are in our abilities and decisions.</li>
             </ul>
-            <br><br>
-
             <p class="small-title">Learning Style Test</p>
-            <a href="http://www.educationplanner.org/students/self-assessments/learning-styles.shtml">Website: http://www.educationplanner.org/students/self-assessments/learning-styles.shtml</a>
-            <br> <br>     
-            <p>My learning style test scores:</p>
+            <div class="link">
+                <a href="http://www.educationplanner.org/students/self-assessments/learning-styles.shtml">Website: http://www.educationplanner.org/students/self-assessments/learning-styles.shtml</a>
+            </div>  
+            
+            <!--Learning style test-->
+            <p>My learning style test scores are as follows:</p>
             <br>
             <ul>
-                <li>Auditory: 20%,</li>
-                <li>Visual: 35%,</li>
-                <li>Tactile: 45%</li>
+                <li><span>Auditory: </span>20%,</li>
+                <li><span>Visual: </span>35%,</li>
+                <li><span>Tactile: </span>45%</li>
             </ul>
-            <br>
             <p>I am a tactile learner!</p>
             <p>A tactile learner, learns by touching and doing. They are 
                 a hands on learner who prefers to touch, move, build or 
@@ -198,109 +239,193 @@
                 physical activity is involved. They learn best by doing, 
                 not reading, seeing or hearing.
             </p>
-            <br><br>
 
+            <!--Creativity test-->
             <p class="small-title">Creativity Test:</p>
-            <a href="http://www.testmycreativity.com/">Website: http://www.testmycreativity.com</a>
-            <br><br>
-            <div class="image-wrapper">
+            <div class="link">
+                <a href="http://www.testmycreativity.com/">Website: http://www.testmycreativity.com</a>
+            </div>
+            <div class="creative-result-wrapper">
                 <img src="creativeTest.jpg" alt="">
             </div>
+            <p class="small-title">What the results of the test mean for me?</p>
+            <p>The results of these tests are an indication of the personal traits that I have 
+                in regards to personality, learning style and creativity. The results of the 
+                personality test and the learning test show similar traits in that I’m a tactile 
+                learner as I would rather make a judgement based on hands on experiencing or 
+                observation.  The personality test has revealed that I am 67% Introverted which 
+                can be both negative and positive depending on the situation. While I’m not 
+                entire sure that I have a tendency to make decisions based on emotion over 
+                thinking the test results shows that I can make emotional decisions, which can 
+                cause irrational decision making. My creativity result is leaning towards the 
+                complexity side of the diagram, meaning I have the ability to carry large amounts 
+                of information with the also ability to manage relationships between such 
+                information.
+            </p>
+            <p class="small-title">How will these results influence my behavior within a team?</p>
+            <p>I think these results will influence my behaviour in a team environment in a positive 
+                way. I like to get hands on and jump into tasks by doing a lot of work myself as to 
+                not let anyone down. I will need to make decision in a rational and logical manner 
+                while avoiding emotional decisions which can be a problem.  While the test says that 
+                I am 67% introverted, I believe that working in a group environment and collaborating 
+                to achieve a common goal is something that will not be problem for me. 
+            </p>
+            <p class="small-title">How should this be taken into account when forming a team?</p>
+            <p>Teams need a mixture of different personality types with different skills sets. A team 
+                of people that are all the same will not have the wide range of skills needed to 
+                complete a variety of tasks. When forming a team you need personality types and 
+                skill sets that will complement each other. You also need know the weaknesses within 
+                the team and recruit people who have strengths to overcome the weaknesses of others. 
+                The goal will be to create a team with diverse personalities and a large combined skill 
+                set to give yourselves the best chance of producing the optimum results.
+            </p>
         </div>
     </div>
 
 
-
+<!--Project idea-->
     <div id="project-idea" class="content">
         <div class="content-wrapper">
-            <h4 class="title">Project Idea:</h4>
-            <br>
-            <p class="small-title">Overview:</p>
+            <div class="banner-img">
+                <h4 class="title">Project Idea</h4>
+            </div>
+            <p class="small-title">Overview</p>
             <p>The project that I have decided on is a smartphone and desktop learning 
                 web application for primary school aged students and parents. The 
-                Application content will be based on the curriculum of each school year, 
-                and broken down into all the main subjects that students undertake during 
-                each year. Each subject will have quizzes that will test the child’s 
-                knowledge and report back on areas they need to improve on. Each student 
-                progress will be ranked against all other users in the system for each 
-                school year and subject. All information will also be accessible by 
-                registered parents. There will also be a discussion forum for the parents 
-                to communicate with other parent with children in the same school year.
-            </p>
-            <br>   
-            <p class="small-title">Motivation:</p>
+                application content will be based on the curriculum of each school year, 
+                and broken down into all the main subjects that students undertake 
+                during each year. Each subject will have quizzes that will test the 
+                child’s knowledge and report back on areas they need to improve on. 
+                Each students progress will be ranked against all other students in 
+                the system for each school year and subject. All information will be 
+                accessible by registered parents. There will also be a discussion forum 
+                for the parents to communicate with each other about the curriculum and 
+                share teaching techniques.
+            </p>  
+            <p class="small-title">Motivation</p>
             <p>The challenge of getting my two primary school aged children to complete 
                 their homework each night is the motivating factor behind this idea, to 
                 say it’s a challenge is a major understatement!!! The idea of having a 
-                fun interactive application for my children to study relevant content 
+                fun and interactive application for my children to study relevant content 
                 at the click of a button while receiving instant feedback on their work 
-                is the driving force for this project. The Idea of a platform to 
-                communicate with other parents about my child and other children’s 
-                progress is also very appealing. I am also highly motivated by the 
-                challenge of programming an application like this using and learning 
-                the different languages and technologies required to complete this task. 
+                is the driving force for this project. The Idea of a platform to communicate 
+                with other parents about the curriculum and share teaching techniques is 
+                also very appealing. I am also highly motivated by the challenge of 
+                programming an application like this using and learning the different 
+                languages and technologies required to complete this task.  
             </p>
-            <br>
-            <p class="small-title">Description:</p>
-            <p>The application will start by asking the user to either register as a 
-                parent or student. The registration process for a student will ask the 
-                student for their country, state, name, age, gender and school year. 
-                The registration for a parent will ask for name, how many primary school 
-                aged children they have and weather they would like to link their account 
-                to a child’s account. The data provided will then be stored in a user data.
-                <br> <br>
-                Once the user is logged in as a student a menu will appear with the following 
-                options:       
+            <p class="small-title">Description</p>
+            <p>The application will start by asking the user to either register as a parent or student. 
+                The registration process for a student will ask the student for their country, state, 
+                name, age, gender and school year. The registration for a parent will ask for name, 
+                how many primary school aged children they have and weather they would like to link 
+                their account to a child’s account. The data provided will then be stored in a user 
+                data base. 
+                <br><br>
+                Once the user is logged in as a student a menu will appear with the following options:          
             </p>
-            <br>
             <ul>
                 <li>Take a quiz</li>
                 <li>View learning materials</li>
                 <li>View profile</li>
             </ul>
-            <br>
-            <p>The “Take a quiz” option will proceed to ask the student subject and topic 
-                within the subject they would like for the quiz. After all the input is 
-                taken the application will proceed with a 20 question quiz on the subject
-                 topic and difficulty level of the school year selected on their profile, 
-                 all question will be relevant to the school curriculum of the state of 
-                 the student. All results for each subject will be stored in a database 
-                 and the student will be notified about any areas where improvement is 
-                 needed as well as areas where improvements have been made.
+            <p> The “Take a quiz” option will proceed to ask the student for a subject and a topic within 
+                the subject they would like for the quiz. After all the input is taken the 
+                application will proceed with a 20 question quiz on the subject topic and 
+                difficulty level of the school year selected on their profile, all question 
+                will be relevant to the school curriculum of the state of the student. 
+                All results for each subject will be stored in a database and the student 
+                will be notified about any areas where improvement is needed as well as 
+                areas where improvements have been made.
             </p>
-            <br>
-            <p>The “View learning materials” option will proceed to ask the student what school 
-                year, subject and topic within the subject they would like learning materials 
-                for. The application will display a list of learning material documents stored 
-                within the system as well as links to external learning material on the web.
+            <p> The “View learning materials” option will proceed to ask the student what school 
+                year, subject and topic within the subject they would like learning materials for.
+                The application will display a list of learning material documents stored within 
+                the system as well as links to external learning material on the web.
             </p>
-            <br>
-            <p>The “view profile” option will display all the results for each quiz taken and 
-                also the improvements made during the year. A ranking of all registered users 
-                will also be displayed for each year and subject. 
+            <p> The “view profile” option will display all the results for each quiz taken and also 
+                the improvements made during the year. A ranking of all registered users will also 
+                be displayed for each year and subject. 
                 <br><br>
-                Once the user is logged in as a parent a menu will appear with two options:     
+                Once the user is logged in as a parent a menu will appear with two options:
+                <br>     
             </p>
-            <br>
             <ul>
                 <li>View linked student accounts,</li>
                 <li>View Parent forum.</li>
             </ul>
-            <br>
-            <p>The “View Linked student accounts” option will display a list of student account 
-                that you have linked to your account. You can select a student account and 
-                review progress reports, results and rankings. If no student accounts are 
-                linked the application will display an appropriate message.
+            <p>The “View linked student accounts” option will display a list of student accounts that 
+                you have linked to your account. You can select a student account and review progress
+                 reports, results and rankings. If no student accounts are linked the application 
+                 will display an appropriate message.
             <br><br>
                 The “View parents forum” will display a list of discussions available for 
-                each year and subject.
-            <br><br>
-                Storage of all the quiz questions will be in a file within the system and 
-                user database will be located in a MySQL database using phpMyAdmin.        
+                each year and subject. This feature will give parents a chance to talk to other 
+                parents about the curriculum of other schools and states.
+                <br><br>
+                The application will have a user interface that is simple for the user to understand 
+                yet still be aesthetically pleasing while at the same time having all the relevant 
+                features that are required.
+                <br><br>
+                A large data base of questions will be stored in the system and the questions will be 
+                selected at random when quizes are taken. This will ensure that each quiz taken will 
+                be different.      
+            </p>
+            <p class="small-title">Tools and Technologies</p>
+            <p>Some of the tools and technologies required include languages such as HTML, CSS and 
+                JavaScript for the front end development and user interface, while programming
+                languages such as Java, PHP, Python or Ruby are all solid choices for the back end 
+                development tasks such as input validation and login systems. There are also many 
+                frameworks available to choose from such as Django for python, Laravel for PHP and 
+                Ruby on Rails which simplifies the task of developing a web application, making the 
+                task a lot faster and easier by doing a lot of the back end work for you. There are 
+                also many choices for databases handling such as phpMyAdmin which is a free and 
+                open source tool for MySQL.         
+            </p>
+            <p class="small-title">Skills required</p>
+            <p>The main skills needed to complete this project are:</p>
+            <ul>
+                <li>
+                    The ability to design and develop a user interface that is simple for the 
+                    user to understand yet still be aesthetically pleasing while at the same 
+                    time having all the relevant features that are required. 
+                </li>
+                <li>
+                    The ability to write program logic in one of the above mentioned 
+                    programming languages and/or frameworks to solve problems efficiently 
+                    and to develop the application to a professional standard.
+                </li>
+                <li>
+                    The ability to connect the application to a database to store all user data reliably 
+                    and secure.
+                </li>
+            </ul>
+            <p>
+                    The skills required are all basic programming core skills that are very achievable to 
+                    attain. There is hundreds of websites, forums and books online with up to date 
+                    information on all the technologies needed for this project.
+            </p>
+            <p class="small-title">Outcome</p>
+            <p>The intended outcome of this application is to give students another option for learning 
+                the topics covered in school. The objective of the project is to create a fun and 
+                interactive learning environment for students while hopefully having a positive impact 
+                on the grades achieved by students. Keeping users informed on how well they are going 
+                in relation to other students of the same age may result in the child working harder to
+                 move up the rankings. Parents being able to communicate with other parents about 
+                 anything related to the curriculum may result in resources and teaching techniques 
+                 being shared around, which can only result in a positive outcome for both students 
+                 and parents.           
             </p>
         </div>
     </div>  
+
+<!--footer-->
+    <footer>
+        <p>&copy Mark McLachlan 2019 | Introduction to Information Technology</p>
+    </footer>
 </body>
+
+<!--Link to JavaScript file-->
 <script src="script.js"></script>
 </html>
 
